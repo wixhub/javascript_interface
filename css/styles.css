@@ -112,6 +112,7 @@ section {
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #024E68;
+  color: #fff;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -185,7 +186,7 @@ section {
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
