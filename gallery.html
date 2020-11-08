@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture gallery with Lightbox</title>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+  
+            <div class="navbar-brand">
+              <h1>Picture gallery with <a href="https://lokeshdhakar.com/projects/lightbox2/" target="_blank">Lightbox</a></h1>
+              <p>
+                <span><a href="http://getbootstrap.com" target="_blank">Bootstrap v3.3.6</a></span>
+              </p>
+            </div>
+  
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="https://wixhub.github.io/animation_list.html">
+                  <span class="glyphicon glyphicon-cloud"></span><br class="hidden-xs"><span> Aimation list</span></a>
+              </li>
+              <li class="hidden-xs">
+                <a href="https://wixhub.github.io/animation_list.html">
+                  <span class="glyphicon glyphicon-cloud"></span><br class="hidden-xs"><span> Aimation list</span></a>
+              </li>
+              <li class="hidden-xs">
+                <a href="https://wixhub.github.io/">
+                  <span class="glyphicon glyphicon-send"></span><br class="hidden-xs"><span> Contact Card</span></a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+  
+    <div id="call-btn" class="visible-xs">
+      <a class="btn" href="https://wixhub.github.io/">
+      <span class="glyphicon glyphicon-send"></span>
+      Contact Card
+      </a>
+    </div>
+
+    <div id="main-content" class="container">
+        <!-- 'text-center' is a Bootstrap class -->
+        <h1 class="text-center"><a href="https://www.pfaender.at/" target="_blank">Pfänder. Austria</a> October 2020</h1>
+        
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">
+                <a href="images/1_1.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder"></a>
+                    <div class="picture-holder">
+                        <img src="images/m_1_1.jpg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">
+                <a href="images/1_2.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder">
+                    <div class="picture-holder"> 
+                        <img src="images/m_1_2.jpg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">
+                <a href="images/1_3.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder">
+                    <div class="picture-holder"> 
+                        <img src="images/m_1_3.jpg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">
+                <a href="images/1_4.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder">
+                    <div class="picture-holder"> 
+                        <img src="images/m_1_4.jpg">
+                    </div>   
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">     
+                <a href="images/1_5.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder">
+                    <div class="picture-holder">
+                        <img src="images/m_1_5.jpg">
+                    </div>     
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 container">      
+                <a href="images/1_6.jpg" rel="lightbox" data-lightbox="roadtrip" title="Pfänder">
+                    <div class="picture-holder">
+                        <img src="images/m_1_6.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div> <!-- End of #main-content -->
+
+    <footer class="panel-footer">
+        <div class="container">
+          <div class="text-center">&copy; Copyright Jana Semenova 2020</div>
+        </div>
+    </footer>
+
+     <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- TODO script src="js/ajax-utils.js"></script -->
+    <!-- TODO script src="js/script.js"></script -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
