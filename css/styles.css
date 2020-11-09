@@ -108,9 +108,10 @@ section {
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #024E68;
   color: #fff;
   border-top: 0;
@@ -132,24 +133,31 @@ section {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   /* Page */
-  .container .jumbotron {
-    height: 75px;
+  #main-content {
+    height: 100%;
   }
   /* End Page */
+  footer  {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-
-  /* End Header */
 
   /* Page */
-  .container .jumbotron {
-    height: 58px;
+  #main-content {
+    height: 100%;
   }
   /* End Page */
+  footer  {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
